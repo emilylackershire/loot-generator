@@ -36,10 +36,17 @@ public class LootGenerator {
             if (suffixOccurs == true) {
                 System.out.println("Suffix defense: " + suffixNum);
             }
-            System.out.println("Fight Again? [y/n]");
+            System.out.println("\nFight Again? [y/n]\n");
             String input = inputScanner.nextLine();
             if (input.equals("n") || input.equals("N")) {
                 continuePlaying = false;
+            }
+            else if (input.equals("y") || input.equals("Y")) {
+                continuePlaying = true;
+            }
+            else {
+                System.out.println("This is not a valid input! Press either Y or N");
+                input = inputScanner.nextLine();
             }
         }
     }
