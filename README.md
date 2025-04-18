@@ -12,6 +12,8 @@ Authors: Emily Lackershrie
 + had general conversations about the project with Finn Rowles.
 + in order to parse the document to get the strings that I wanted, I needed more functions that I didn't know so I read the Oracle Java docs to find out more about strings:
   https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/lang/String.html
++ read the oracle java docs on trees: 
+  https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html#TreeMap--
 
 ## Git Log
 
